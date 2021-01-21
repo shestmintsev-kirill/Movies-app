@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import App from "./App.vue";
+import Header from "./components/Header.vue"
 import store from "./store";
 import "./plugins/bootstrap";
 
@@ -13,6 +14,10 @@ const router = new Router({
     {
       path: "/",
       component: App
+    },
+    {
+      path: "/",
+      component: Header
     }
   ]
 });

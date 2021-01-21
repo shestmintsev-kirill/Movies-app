@@ -2,7 +2,9 @@
   <header class="header">
     <BNavbar type="dark" class="navbar" variant="dark">
       <BContainer>
-        <BNavbarBrand href="/">MovieDB</BNavbarBrand>
+        <BNavbarBrand>
+          <router-link to="/">MovieDB</router-link>
+        </BNavbarBrand>
         <BNavForm>
           <BFormInput
             class="mr-sm-2 search-input"
