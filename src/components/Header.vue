@@ -52,13 +52,13 @@ export default {
 
 <style scoped>
 a {
-  color: #fff;
+  color: #fff !important;
   transition: 0.3s;
 }
 
 a:hover {
-  text-decoration: none;
-  color: rgb(190, 190, 190);
+  text-decoration: none !important;
+  color: rgb(190, 190, 190) !important;
 }
 
 .header {
