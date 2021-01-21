@@ -51,6 +51,16 @@ export default {
 </script>
 
 <style scoped>
+a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+}
+
 .header {
   margin-bottom: 30px;
 }
