@@ -3,7 +3,7 @@
     <BNavbar type="dark" class="navbar" variant="dark">
       <BContainer>
         <BNavbarBrand>
-          <router-link to="/">MovieDB</router-link>
+          <router-link class="home-link" to="/">MovieDB</router-link>
         </BNavbarBrand>
         <BNavForm>
           <BFormInput
@@ -51,12 +51,12 @@ export default {
 </script>
 
 <style scoped>
-a {
+.home-link {
   color: #fff !important;
   transition: 0.3s;
 }
 
-a:hover {
+.home-link:hover {
   text-decoration: none !important;
   color: rgb(190, 190, 190) !important;
 }
