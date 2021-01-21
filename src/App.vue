@@ -7,7 +7,7 @@
     <MoviesList :list="moviesList" @chengePoster="onChengePoster" />
     <MoviesPagination
       :current-page="currentPage"
-      :per-Page="moviesPerPage"
+      :per-page="moviesPerPage"
       :total="moviesLength"
       @pageChanged="onPageChanged"
     />

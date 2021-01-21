@@ -9,7 +9,7 @@
       <div class="movie-item-controls row no-gutters">
         <div class="col pr-2">
           <BButton
-            size="md"
+            size="sm"
             block
             variant="outline-light"
             @click="showInfoModalEvent"
@@ -19,7 +19,7 @@
         </div>
         <div class="col pl-2">
           <BButton
-            size="md"
+            size="sm"
             block
             variant="outline-light"
             @click="emitRemoveEvent"
